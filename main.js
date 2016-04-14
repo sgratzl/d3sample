@@ -165,7 +165,7 @@ function createBarChart(baseSelector) {
     leftMargin: 200,
     bottomMargin: 30,
     width: 300,
-    height: 700
+    height: 600
   };
   const svg = d3.select(baseSelector).append('svg')
               .attr({

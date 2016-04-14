@@ -2,6 +2,16 @@
  * Created by Samuel Gratzl on 11.02.2016.
  */
 
+main {
+  display: flex;
+  flex-direction: row;
+
+}
+main > section {
+  flex: 1 1 auto;
+}
+
+
 /**
  * default styles for scatterPlot circles
  */
